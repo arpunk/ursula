@@ -1,0 +1,20 @@
+{application, 'ursula',
+ [{description, "An LFE Application"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    sasl,
+    dns,
+    erldns
+   ]},
+  {mod, {'ursula-app', []}},
+  {env, []},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
